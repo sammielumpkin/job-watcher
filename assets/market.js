@@ -53,7 +53,7 @@ function dayRange(a, b) {
 }
 
 function section(n, head, text, stat, chartHtml) {
-  return `<section class="sec" id="s${n}"><h2>${n}. ${JW.esc(head)}</h2><p>${JW.esc(text)}</p>` +
+  return `<section class="sec panel" id="s${n}"><h2><span class="no">${n}</span><span>${JW.esc(head)}</span></h2><p>${JW.esc(text)}</p>` +
     `<p class="stat">${stat}</p>${chartHtml}</section>`;
 }
 const chartBox = (id, label) => `<div class="chart" id="${id}" role="group" aria-label="${JW.esc(label)}"></div>`;
