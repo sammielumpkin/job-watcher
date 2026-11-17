@@ -1,15 +1,15 @@
 {
-  "run_time": "2026-11-17T03:39:42Z",
+  "run_time": "2026-11-17T16:16:44Z",
   "first_run_date": "2026-11-17",
   "days_with_success": 1,
-  "open": 4593,
+  "open": 4583,
   "new_today": 0,
   "removed_today": 0,
   "sources": [
     {
       "name": "stripe",
       "ok": true,
-      "count": 790
+      "count": 793
     },
     {
       "name": "robinhood",
@@ -19,7 +19,7 @@
     {
       "name": "coinbase",
       "ok": true,
-      "count": 261
+      "count": 259
     },
     {
       "name": "sofi",
@@ -29,22 +29,22 @@
     {
       "name": "affirm",
       "ok": true,
-      "count": 211
+      "count": 213
     },
     {
       "name": "chime",
       "ok": true,
-      "count": 74
+      "count": 75
     },
     {
       "name": "brex",
       "ok": true,
-      "count": 277
+      "count": 274
     },
     {
       "name": "toast",
       "ok": true,
-      "count": 333
+      "count": 317
     },
     {
       "name": "plaid",
@@ -64,17 +64,17 @@
     {
       "name": "block",
       "ok": true,
-      "count": 185
+      "count": 188
     },
     {
       "name": "carta",
       "ok": true,
-      "count": 77
+      "count": 78
     },
     {
       "name": "gusto",
       "ok": true,
-      "count": 77
+      "count": 78
     },
     {
       "name": "betterment",
@@ -89,7 +89,7 @@
     {
       "name": "adyen",
       "ok": true,
-      "count": 242
+      "count": 237
     },
     {
       "name": "billcom",
@@ -109,17 +109,17 @@
     {
       "name": "payoneer",
       "ok": true,
-      "count": 100
+      "count": 102
     },
     {
       "name": "janestreet",
       "ok": true,
-      "count": 216
+      "count": 215
     },
     {
       "name": "point72",
       "ok": true,
-      "count": 196
+      "count": 200
     },
     {
       "name": "ripple",

@@ -1,9 +1,9 @@
 {
  "2026-11-17": {
-  "run_time": "2026-11-17T03:39:42Z",
+  "run_time": "2026-11-17T16:16:44Z",
   "sources": [
    {
-    "count": 790,
+    "count": 793,
     "error": "",
     "name": "Stripe",
     "ok": true,
@@ -17,7 +17,7 @@
     "source": "robinhood"
    },
    {
-    "count": 261,
+    "count": 259,
     "error": "",
     "name": "Coinbase",
     "ok": true,
@@ -31,28 +31,28 @@
     "source": "sofi"
    },
    {
-    "count": 211,
+    "count": 213,
     "error": "",
     "name": "Affirm",
     "ok": true,
     "source": "affirm"
    },
    {
-    "count": 74,
+    "count": 75,
     "error": "",
     "name": "Chime",
     "ok": true,
     "source": "chime"
    },
    {
-    "count": 277,
+    "count": 274,
     "error": "",
     "name": "Brex",
     "ok": true,
     "source": "brex"
    },
    {
-    "count": 333,
+    "count": 317,
     "error": "",
     "name": "Toast",
     "ok": true,
@@ -80,21 +80,21 @@
     "source": "mercury"
    },
    {
-    "count": 185,
+    "count": 188,
     "error": "",
     "name": "Block",
     "ok": true,
     "source": "block"
    },
    {
-    "count": 77,
+    "count": 78,
     "error": "",
     "name": "Carta",
     "ok": true,
     "source": "carta"
    },
    {
-    "count": 77,
+    "count": 78,
     "error": "",
     "name": "Gusto",
     "ok": true,
@@ -115,7 +115,7 @@
     "source": "upstart"
    },
    {
-    "count": 242,
+    "count": 237,
     "error": "",
     "name": "Adyen",
     "ok": true,
@@ -143,21 +143,21 @@
     "source": "monzo"
    },
    {
-    "count": 100,
+    "count": 102,
     "error": "",
     "name": "Payoneer",
     "ok": true,
     "source": "payoneer"
    },
    {
-    "count": 216,
+    "count": 215,
     "error": "",
     "name": "Jane Street",
     "ok": true,
     "source": "janestreet"
    },
    {
-    "count": 196,
+    "count": 200,
     "error": "",
     "name": "Point72",
     "ok": true,
