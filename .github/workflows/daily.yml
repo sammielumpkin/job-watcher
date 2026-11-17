@@ -1,0 +1,51 @@
+name: daily
+
+on:
+  schedule:
+    - cron: "23 6 * * *"   # 06:23 UTC every day (not on the hour)
+  workflow_dispatch:        # run by hand from the Actions tab
+
+# One run at a time, so a manual run and the schedule never commit over each other.
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # commit data files
+  issues: write     # open, update and close the daily issue
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Fetch all sources (a failing source is recorded, not fatal), rebuild
+      # data/history.csv from the raw files, write data/status.json.
+      - name: Run pipeline
+        run: python -m jobwatcher.run
+
+      # Open today's issue (or update it on a second run the same day) and close earlier ones.
+      # A problem here must not stop the commit below.
+      - name: Daily issue
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: python -m jobwatcher.issues
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "Daily run $(date -u +%F)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
