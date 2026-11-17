@@ -109,8 +109,8 @@ button.on{background:var(--accent);color:var(--accent-ink);border-color:var(--ac
 
 /* Market */
 .sec.panel{padding:22px}
-.sec h2{display:flex;gap:12px;align-items:flex-start;font-size:1.25rem}
-.sec h2 .no{flex:none;width:28px;height:28px;border-radius:9px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:.9rem;font-weight:750;margin-top:-1px}
+.sec h2{display:flex;gap:8px;align-items:baseline;font-size:1.25rem}
+.sec h2 .no{flex:none;color:var(--accent);font-weight:750}
 .sec p{color:var(--ink2);margin:.2rem 0 .8rem;max-width:70ch}
 .sec .stat{display:inline-block;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:4px 14px;font-size:.88rem;color:var(--ink2)}
 .sec .stat b{color:var(--ink)}
