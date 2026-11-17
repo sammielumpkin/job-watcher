@@ -8,11 +8,14 @@
   }
 
   function nav(page) {
-    const el = document.createElement("nav");
-    el.className = "nav";
-    el.setAttribute("aria-label", "Main");
-    el.innerHTML = '<span class="brand">Job Watcher</span>' + PAGES.map(([h, n]) =>
-      `<a href="${h}"${h === page ? ' aria-current="page"' : ""}>${n}</a>`).join("");
+    const el = document.createElement("header");
+    el.className = "site-header";
+    el.innerHTML = '<nav class="nav" aria-label="Main"><a class="brand" href="index.html">' +
+      '<svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#2563eb"/>' +
+      '<g fill="#fff"><rect x="6" y="17" width="4" height="9" rx="1"/><rect x="12" y="11" width="4" height="15" rx="1"/>' +
+      '<rect x="18" y="14" width="4" height="12" rx="1"/><rect x="24" y="6" width="3" height="20" rx="1"/></g></svg>' +
+      '<span class="bt">Job Watcher</span></a><div class="tabs">' + PAGES.map(([h, n]) =>
+      `<a href="${h}"${h === page ? ' aria-current="page"' : ""}>${n}</a>`).join("") + "</div></nav>";
     document.body.prepend(el);
     const tip = document.createElement("div");
     tip.id = "tip";

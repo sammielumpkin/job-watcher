@@ -1,6 +1,6 @@
 /* Network first, cache fallback: online, pages and data come fresh from the network;
    offline, the last copy that was loaded is served. */
-const CACHE = "jw-v1";
+const CACHE = "jw-v2";
 const SHELL = ["./", "index.html", "browse.html", "market.html", "assets/site.css", "assets/site.js",
   "assets/today.js", "assets/browse.js", "assets/market.js", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "data/history.csv", "data/status.json"];

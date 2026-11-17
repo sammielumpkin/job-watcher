@@ -3,7 +3,7 @@ import pathlib
 import struct
 import zlib
 
-BG, FG = (15, 118, 110), (255, 255, 255)
+BG, FG = (37, 99, 235), (255, 255, 255)
 
 
 def png(size, safe):
