@@ -1,0 +1,194 @@
+{
+ "tested": "2026-11-16",
+ "sources": [
+  {
+   "name": "Stripe",
+   "system": "greenhouse",
+   "slug": "stripe",
+   "url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
+   "postings_at_test": 791
+  },
+  {
+   "name": "Robinhood",
+   "system": "greenhouse",
+   "slug": "robinhood",
+   "url": "https://boards-api.greenhouse.io/v1/boards/robinhood/jobs",
+   "postings_at_test": 166
+  },
+  {
+   "name": "Coinbase",
+   "system": "greenhouse",
+   "slug": "coinbase",
+   "url": "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs",
+   "postings_at_test": 261
+  },
+  {
+   "name": "SoFi",
+   "system": "greenhouse",
+   "slug": "sofi",
+   "url": "https://boards-api.greenhouse.io/v1/boards/sofi/jobs",
+   "postings_at_test": 50
+  },
+  {
+   "name": "Affirm",
+   "system": "greenhouse",
+   "slug": "affirm",
+   "url": "https://boards-api.greenhouse.io/v1/boards/affirm/jobs",
+   "postings_at_test": 211
+  },
+  {
+   "name": "Chime",
+   "system": "greenhouse",
+   "slug": "chime",
+   "url": "https://boards-api.greenhouse.io/v1/boards/chime/jobs",
+   "postings_at_test": 74
+  },
+  {
+   "name": "Brex",
+   "system": "greenhouse",
+   "slug": "brex",
+   "url": "https://boards-api.greenhouse.io/v1/boards/brex/jobs",
+   "postings_at_test": 277
+  },
+  {
+   "name": "Toast",
+   "system": "greenhouse",
+   "slug": "toast",
+   "url": "https://boards-api.greenhouse.io/v1/boards/toast/jobs",
+   "postings_at_test": 333
+  },
+  {
+   "name": "Plaid",
+   "system": "ashby",
+   "slug": "plaid",
+   "url": "https://api.ashbyhq.com/posting-api/job-board/plaid",
+   "postings_at_test": 140
+  },
+  {
+   "name": "Ramp",
+   "system": "ashby",
+   "slug": "ramp",
+   "url": "https://api.ashbyhq.com/posting-api/job-board/ramp",
+   "postings_at_test": 179
+  },
+  {
+   "name": "Mercury",
+   "system": "greenhouse",
+   "slug": "mercury",
+   "url": "https://boards-api.greenhouse.io/v1/boards/mercury/jobs",
+   "postings_at_test": 76
+  },
+  {
+   "name": "Block",
+   "system": "greenhouse",
+   "slug": "block",
+   "url": "https://boards-api.greenhouse.io/v1/boards/block/jobs",
+   "postings_at_test": 185
+  },
+  {
+   "name": "Carta",
+   "system": "greenhouse",
+   "slug": "carta",
+   "url": "https://boards-api.greenhouse.io/v1/boards/carta/jobs",
+   "postings_at_test": 77
+  },
+  {
+   "name": "Gusto",
+   "system": "greenhouse",
+   "slug": "gusto",
+   "url": "https://boards-api.greenhouse.io/v1/boards/gusto/jobs",
+   "postings_at_test": 77
+  },
+  {
+   "name": "Betterment",
+   "system": "greenhouse",
+   "slug": "betterment",
+   "url": "https://boards-api.greenhouse.io/v1/boards/betterment/jobs",
+   "postings_at_test": 25
+  },
+  {
+   "name": "Upstart",
+   "system": "greenhouse",
+   "slug": "upstart",
+   "url": "https://boards-api.greenhouse.io/v1/boards/upstart/jobs",
+   "postings_at_test": 75
+  },
+  {
+   "name": "Adyen",
+   "system": "greenhouse",
+   "slug": "adyen",
+   "url": "https://boards-api.greenhouse.io/v1/boards/adyen/jobs",
+   "postings_at_test": 242
+  },
+  {
+   "name": "Bill.com",
+   "system": "greenhouse",
+   "slug": "billcom",
+   "url": "https://boards-api.greenhouse.io/v1/boards/billcom/jobs",
+   "postings_at_test": 37
+  },
+  {
+   "name": "Airwallex",
+   "system": "ashby",
+   "slug": "airwallex",
+   "url": "https://api.ashbyhq.com/posting-api/job-board/airwallex",
+   "postings_at_test": 484
+  },
+  {
+   "name": "Monzo",
+   "system": "greenhouse",
+   "slug": "monzo",
+   "url": "https://boards-api.greenhouse.io/v1/boards/monzo/jobs",
+   "postings_at_test": 60
+  },
+  {
+   "name": "Payoneer",
+   "system": "greenhouse",
+   "slug": "payoneer",
+   "url": "https://boards-api.greenhouse.io/v1/boards/payoneer/jobs",
+   "postings_at_test": 100
+  },
+  {
+   "name": "Jane Street",
+   "system": "greenhouse",
+   "slug": "janestreet",
+   "url": "https://boards-api.greenhouse.io/v1/boards/janestreet/jobs",
+   "postings_at_test": 216
+  },
+  {
+   "name": "Point72",
+   "system": "greenhouse",
+   "slug": "point72",
+   "url": "https://boards-api.greenhouse.io/v1/boards/point72/jobs",
+   "postings_at_test": 196
+  },
+  {
+   "name": "Ripple",
+   "system": "greenhouse",
+   "slug": "ripple",
+   "url": "https://boards-api.greenhouse.io/v1/boards/ripple/jobs",
+   "postings_at_test": 111
+  },
+  {
+   "name": "Wealthfront",
+   "system": "lever",
+   "slug": "wealthfront",
+   "url": "https://api.lever.co/v0/postings/wealthfront?mode=json",
+   "postings_at_test": 21
+  },
+  {
+   "name": "Anchorage",
+   "system": "lever",
+   "slug": "anchorage",
+   "url": "https://api.lever.co/v0/postings/anchorage?mode=json",
+   "postings_at_test": 21
+  },
+  {
+   "name": "Nubank",
+   "system": "ashby",
+   "slug": "nubank",
+   "url": "https://api.ashbyhq.com/posting-api/job-board/nubank",
+   "postings_at_test": 107
+  }
+ ]
+}
