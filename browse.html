@@ -4,15 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Job Watcher - Browse</title>
-<meta name="theme-color" content="#0f766e">
+<meta name="theme-color" content="#0b1f3a">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<main>
+<section class="hero"><div>
   <h1>Browse open postings</h1>
+  <p class="sub">Filter, search and star postings. Your shortlist stays in this browser.</p>
+</div></section>
+<main>
   <div id="banner"></div>
   <div class="controls">
     <div class="seg" role="group" aria-label="Which postings">
@@ -32,7 +35,7 @@
     <label>Title <input id="f-q" type="search" placeholder="Search titles"></label>
     <label>Sort by first seen
       <select id="f-sort"><option value="desc">Newest first</option><option value="asc">Oldest first</option></select></label>
-    <label style="flex-direction:row;align-items:center;gap:6px"><input id="f-star" type="checkbox"> Shortlist only</label>
+    <label class="chk"><input id="f-star" type="checkbox"> Shortlist only</label>
   </div>
   <p class="count" id="count" aria-live="polite"></p>
   <div id="list"></div>

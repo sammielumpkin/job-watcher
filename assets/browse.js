@@ -39,9 +39,10 @@ function render() {
     const on = stars.has(r.posting_id);
     return `<div class="post"><button class="star" data-id="${JW.esc(r.posting_id)}" aria-pressed="${on}" ` +
       `aria-label="${on ? "Remove from" : "Add to"} shortlist: ${JW.esc(r.title)}">${on ? "&#9733;" : "&#9734;"}</button>` +
-      `<div><div class="t">${JW.esc(r.title)}</div><div class="meta">${JW.esc(r.employer)}` +
-      `${r.location ? " &middot; " + JW.esc(r.location) : ""}${r.department ? " &middot; " + JW.esc(r.department) : ""}` +
-      ` &middot; first seen ${r.first_seen} (${r.daysOpen} d)${r.posted_date ? " &middot; posted " + r.posted_date : ""}</div></div>` +
+      `<div class="av" aria-hidden="true">${JW.esc(r.employer.charAt(0).toUpperCase())}</div>` +
+      `<div><div class="t">${JW.esc(r.title)}</div><div class="meta"><span>${JW.esc(r.employer)}</span>` +
+      `${r.location ? "<span>" + JW.esc(r.location) + "</span>" : ""}${r.department ? "<span>" + JW.esc(r.department) + "</span>" : ""}` +
+      `<span>First seen ${r.first_seen} (${r.daysOpen} d)</span>${r.posted_date ? "<span>Posted " + r.posted_date + "</span>" : ""}</div></div>` +
       `<a class="apply" href="${JW.esc(r.url)}" target="_blank" rel="noopener">Apply</a></div>`;
   }).join("") || '<p class="muted">No postings match.</p>';
   $("more").hidden = rows.length <= shown;
