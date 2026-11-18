@@ -1,10 +1,10 @@
 {
-  "run_time": "2026-11-17T16:16:44Z",
+  "run_time": "2026-11-18T15:50:55Z",
   "first_run_date": "2026-11-17",
-  "days_with_success": 1,
-  "open": 4583,
-  "new_today": 0,
-  "removed_today": 0,
+  "days_with_success": 2,
+  "open": 4600,
+  "new_today": 117,
+  "removed_today": 100,
   "sources": [
     {
       "name": "stripe",
@@ -19,17 +19,17 @@
     {
       "name": "coinbase",
       "ok": true,
-      "count": 259
+      "count": 255
     },
     {
       "name": "sofi",
       "ok": true,
-      "count": 50
+      "count": 51
     },
     {
       "name": "affirm",
       "ok": true,
-      "count": 213
+      "count": 225
     },
     {
       "name": "chime",
@@ -39,37 +39,37 @@
     {
       "name": "brex",
       "ok": true,
-      "count": 274
+      "count": 266
     },
     {
       "name": "toast",
       "ok": true,
-      "count": 317
+      "count": 330
     },
     {
       "name": "plaid",
       "ok": true,
-      "count": 140
+      "count": 142
     },
     {
       "name": "ramp",
       "ok": true,
-      "count": 179
+      "count": 181
     },
     {
       "name": "mercury",
       "ok": true,
-      "count": 76
+      "count": 74
     },
     {
       "name": "block",
       "ok": true,
-      "count": 188
+      "count": 186
     },
     {
       "name": "carta",
       "ok": true,
-      "count": 78
+      "count": 77
     },
     {
       "name": "gusto",
@@ -89,22 +89,22 @@
     {
       "name": "adyen",
       "ok": true,
-      "count": 237
+      "count": 240
     },
     {
       "name": "billcom",
       "ok": true,
-      "count": 37
+      "count": 36
     },
     {
       "name": "airwallex",
       "ok": true,
-      "count": 486
+      "count": 487
     },
     {
       "name": "monzo",
       "ok": true,
-      "count": 60
+      "count": 64
     },
     {
       "name": "payoneer",
@@ -119,17 +119,17 @@
     {
       "name": "point72",
       "ok": true,
-      "count": 200
+      "count": 201
     },
     {
       "name": "ripple",
       "ok": true,
-      "count": 111
+      "count": 112
     },
     {
       "name": "wealthfront",
       "ok": true,
-      "count": 21
+      "count": 20
     },
     {
       "name": "anchorage",
@@ -139,7 +139,7 @@
     {
       "name": "nubank",
       "ok": true,
-      "count": 107
+      "count": 103
     }
   ]
 }
