@@ -1,20 +1,20 @@
 {
-  "run_time": "2026-11-18T15:50:55Z",
+  "run_time": "2026-11-19T15:54:57Z",
   "first_run_date": "2026-11-17",
-  "days_with_success": 2,
-  "open": 4600,
-  "new_today": 117,
-  "removed_today": 100,
+  "days_with_success": 3,
+  "open": 4593,
+  "new_today": 95,
+  "removed_today": 107,
   "sources": [
     {
       "name": "stripe",
       "ok": true,
-      "count": 793
+      "count": 782
     },
     {
       "name": "robinhood",
       "ok": true,
-      "count": 166
+      "count": 165
     },
     {
       "name": "coinbase",
@@ -24,22 +24,22 @@
     {
       "name": "sofi",
       "ok": true,
-      "count": 51
+      "count": 53
     },
     {
       "name": "affirm",
       "ok": true,
-      "count": 225
+      "count": 226
     },
     {
       "name": "chime",
       "ok": true,
-      "count": 75
+      "count": 77
     },
     {
       "name": "brex",
       "ok": true,
-      "count": 266
+      "count": 260
     },
     {
       "name": "toast",
@@ -49,32 +49,32 @@
     {
       "name": "plaid",
       "ok": true,
-      "count": 142
+      "count": 141
     },
     {
       "name": "ramp",
       "ok": true,
-      "count": 181
+      "count": 182
     },
     {
       "name": "mercury",
       "ok": true,
-      "count": 74
+      "count": 72
     },
     {
       "name": "block",
       "ok": true,
-      "count": 186
+      "count": 187
     },
     {
       "name": "carta",
       "ok": true,
-      "count": 77
+      "count": 78
     },
     {
       "name": "gusto",
       "ok": true,
-      "count": 78
+      "count": 81
     },
     {
       "name": "betterment",
@@ -84,47 +84,47 @@
     {
       "name": "upstart",
       "ok": true,
-      "count": 75
+      "count": 77
     },
     {
       "name": "adyen",
       "ok": true,
-      "count": 240
+      "count": 246
     },
     {
       "name": "billcom",
       "ok": true,
-      "count": 36
+      "count": 35
     },
     {
       "name": "airwallex",
       "ok": true,
-      "count": 487
+      "count": 488
     },
     {
       "name": "monzo",
       "ok": true,
-      "count": 64
+      "count": 60
     },
     {
       "name": "payoneer",
       "ok": true,
-      "count": 102
+      "count": 100
     },
     {
       "name": "janestreet",
       "ok": true,
-      "count": 215
+      "count": 216
     },
     {
       "name": "point72",
       "ok": true,
-      "count": 201
+      "count": 202
     },
     {
       "name": "ripple",
       "ok": true,
-      "count": 112
+      "count": 109
     },
     {
       "name": "wealthfront",
@@ -139,7 +139,7 @@
     {
       "name": "nubank",
       "ok": true,
-      "count": 103
+      "count": 105
     }
   ]
 }
