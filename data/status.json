@@ -1,15 +1,15 @@
 {
-  "run_time": "2026-11-22T14:45:15Z",
+  "run_time": "2026-11-23T18:30:28Z",
   "first_run_date": "2026-11-17",
-  "days_with_success": 6,
-  "open": 4587,
-  "new_today": 4,
-  "removed_today": 3,
+  "days_with_success": 7,
+  "open": 4579,
+  "new_today": 54,
+  "removed_today": 71,
   "sources": [
     {
       "name": "stripe",
       "ok": true,
-      "count": 777
+      "count": 778
     },
     {
       "name": "robinhood",
@@ -19,7 +19,7 @@
     {
       "name": "coinbase",
       "ok": true,
-      "count": 252
+      "count": 250
     },
     {
       "name": "sofi",
@@ -29,22 +29,22 @@
     {
       "name": "affirm",
       "ok": true,
-      "count": 222
+      "count": 217
     },
     {
       "name": "chime",
       "ok": true,
-      "count": 80
+      "count": 82
     },
     {
       "name": "brex",
       "ok": true,
-      "count": 249
+      "count": 257
     },
     {
       "name": "toast",
       "ok": true,
-      "count": 325
+      "count": 322
     },
     {
       "name": "plaid",
@@ -54,17 +54,17 @@
     {
       "name": "ramp",
       "ok": true,
-      "count": 187
+      "count": 182
     },
     {
       "name": "mercury",
       "ok": true,
-      "count": 70
+      "count": 69
     },
     {
       "name": "block",
       "ok": true,
-      "count": 184
+      "count": 183
     },
     {
       "name": "carta",
@@ -74,12 +74,12 @@
     {
       "name": "gusto",
       "ok": true,
-      "count": 82
+      "count": 85
     },
     {
       "name": "betterment",
       "ok": true,
-      "count": 26
+      "count": 25
     },
     {
       "name": "upstart",
@@ -89,12 +89,12 @@
     {
       "name": "adyen",
       "ok": true,
-      "count": 243
+      "count": 244
     },
     {
       "name": "billcom",
       "ok": true,
-      "count": 36
+      "count": 37
     },
     {
       "name": "airwallex",
@@ -104,7 +104,7 @@
     {
       "name": "monzo",
       "ok": true,
-      "count": 58
+      "count": 53
     },
     {
       "name": "payoneer",
@@ -124,7 +124,7 @@
     {
       "name": "ripple",
       "ok": true,
-      "count": 109
+      "count": 110
     },
     {
       "name": "wealthfront",
@@ -139,7 +139,7 @@
     {
       "name": "nubank",
       "ok": true,
-      "count": 111
+      "count": 109
     }
   ]
 }
