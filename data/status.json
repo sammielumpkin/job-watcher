@@ -1,10 +1,10 @@
 {
-  "run_time": "2026-11-24T17:58:44Z",
+  "run_time": "2026-11-25T17:27:06Z",
   "first_run_date": "2026-11-17",
-  "days_with_success": 8,
-  "open": 4536,
-  "new_today": 71,
-  "removed_today": 117,
+  "days_with_success": 9,
+  "open": 4545,
+  "new_today": 101,
+  "removed_today": 99,
   "sources": [
     {
       "name": "stripe",
@@ -14,27 +14,27 @@
     {
       "name": "robinhood",
       "ok": true,
-      "count": 156
+      "count": 162
     },
     {
       "name": "coinbase",
       "ok": true,
-      "count": 249
+      "count": 246
     },
     {
       "name": "sofi",
       "ok": true,
-      "count": 53
+      "count": 57
     },
     {
       "name": "affirm",
       "ok": true,
-      "count": 214
+      "count": 215
     },
     {
       "name": "chime",
       "ok": true,
-      "count": 79
+      "count": 78
     },
     {
       "name": "brex",
@@ -44,7 +44,7 @@
     {
       "name": "toast",
       "ok": true,
-      "count": 308
+      "count": 301
     },
     {
       "name": "plaid",
@@ -54,7 +54,7 @@
     {
       "name": "ramp",
       "ok": true,
-      "count": 180
+      "count": 182
     },
     {
       "name": "mercury",
@@ -64,7 +64,7 @@
     {
       "name": "block",
       "ok": true,
-      "count": 183
+      "count": 186
     },
     {
       "name": "carta",
@@ -74,7 +74,7 @@
     {
       "name": "gusto",
       "ok": true,
-      "count": 85
+      "count": 86
     },
     {
       "name": "betterment",
@@ -89,17 +89,17 @@
     {
       "name": "adyen",
       "ok": true,
-      "count": 240
+      "count": 241
     },
     {
       "name": "billcom",
       "ok": true,
-      "count": 37
+      "count": 39
     },
     {
       "name": "airwallex",
       "ok": true,
-      "count": 501
+      "count": 507
     },
     {
       "name": "monzo",
@@ -109,17 +109,17 @@
     {
       "name": "payoneer",
       "ok": true,
-      "count": 100
+      "count": 95
     },
     {
       "name": "janestreet",
       "ok": true,
-      "count": 217
+      "count": 218
     },
     {
       "name": "point72",
       "ok": true,
-      "count": 201
+      "count": 199
     },
     {
       "name": "ripple",
