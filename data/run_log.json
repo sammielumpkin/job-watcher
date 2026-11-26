@@ -1744,5 +1744,199 @@
     "source": "nubank"
    }
   ]
+ },
+ "2026-11-26": {
+  "run_time": "2026-11-26T17:07:42Z",
+  "sources": [
+   {
+    "count": 768,
+    "error": "",
+    "name": "Stripe",
+    "ok": true,
+    "source": "stripe"
+   },
+   {
+    "count": 162,
+    "error": "",
+    "name": "Robinhood",
+    "ok": true,
+    "source": "robinhood"
+   },
+   {
+    "count": 257,
+    "error": "",
+    "name": "Coinbase",
+    "ok": true,
+    "source": "coinbase"
+   },
+   {
+    "count": 57,
+    "error": "",
+    "name": "SoFi",
+    "ok": true,
+    "source": "sofi"
+   },
+   {
+    "count": 213,
+    "error": "",
+    "name": "Affirm",
+    "ok": true,
+    "source": "affirm"
+   },
+   {
+    "count": 77,
+    "error": "",
+    "name": "Chime",
+    "ok": true,
+    "source": "chime"
+   },
+   {
+    "count": 270,
+    "error": "",
+    "name": "Brex",
+    "ok": true,
+    "source": "brex"
+   },
+   {
+    "count": 300,
+    "error": "",
+    "name": "Toast",
+    "ok": true,
+    "source": "toast"
+   },
+   {
+    "count": 144,
+    "error": "",
+    "name": "Plaid",
+    "ok": true,
+    "source": "plaid"
+   },
+   {
+    "count": 183,
+    "error": "",
+    "name": "Ramp",
+    "ok": true,
+    "source": "ramp"
+   },
+   {
+    "count": 68,
+    "error": "",
+    "name": "Mercury",
+    "ok": true,
+    "source": "mercury"
+   },
+   {
+    "count": 183,
+    "error": "",
+    "name": "Block",
+    "ok": true,
+    "source": "block"
+   },
+   {
+    "count": 81,
+    "error": "",
+    "name": "Carta",
+    "ok": true,
+    "source": "carta"
+   },
+   {
+    "count": 86,
+    "error": "",
+    "name": "Gusto",
+    "ok": true,
+    "source": "gusto"
+   },
+   {
+    "count": 23,
+    "error": "",
+    "name": "Betterment",
+    "ok": true,
+    "source": "betterment"
+   },
+   {
+    "count": 74,
+    "error": "",
+    "name": "Upstart",
+    "ok": true,
+    "source": "upstart"
+   },
+   {
+    "count": 232,
+    "error": "",
+    "name": "Adyen",
+    "ok": true,
+    "source": "adyen"
+   },
+   {
+    "count": 38,
+    "error": "",
+    "name": "Bill.com",
+    "ok": true,
+    "source": "billcom"
+   },
+   {
+    "count": 511,
+    "error": "",
+    "name": "Airwallex",
+    "ok": true,
+    "source": "airwallex"
+   },
+   {
+    "count": 57,
+    "error": "",
+    "name": "Monzo",
+    "ok": true,
+    "source": "monzo"
+   },
+   {
+    "count": 95,
+    "error": "",
+    "name": "Payoneer",
+    "ok": true,
+    "source": "payoneer"
+   },
+   {
+    "count": 219,
+    "error": "",
+    "name": "Jane Street",
+    "ok": true,
+    "source": "janestreet"
+   },
+   {
+    "count": 200,
+    "error": "",
+    "name": "Point72",
+    "ok": true,
+    "source": "point72"
+   },
+   {
+    "count": 107,
+    "error": "",
+    "name": "Ripple",
+    "ok": true,
+    "source": "ripple"
+   },
+   {
+    "count": 19,
+    "error": "",
+    "name": "Wealthfront",
+    "ok": true,
+    "source": "wealthfront"
+   },
+   {
+    "count": 19,
+    "error": "",
+    "name": "Anchorage",
+    "ok": true,
+    "source": "anchorage"
+   },
+   {
+    "count": 107,
+    "error": "",
+    "name": "Nubank",
+    "ok": true,
+    "source": "nubank"
+   }
+  ]
  }
 }
